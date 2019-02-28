@@ -27,15 +27,6 @@ def copyTree(src, dst):
 copyTree (src, dst)
 
 # walk into subdirectories
-#  loop through the files
-#    if file ends with shp
-#      open as geodf
-#      loop each line of ea list
-#        if EACODE2 = EACODE
-#          append the feature to new geodf
-#      save new geodf
-
-# walk into subdirectories
 for dirpath, dirnames, filenames in os.walk(src):
 #  loop through the files
     for file in filenames:
